@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Orgname - {{ title }}</title>
+  </head>
+  <body>
+    {% include "nav" %}
+
+    {% block content %}{% endblock content %}
+
+      <footer>
+        <p><a href="mailto:ronitnath@berkeley.edu">Web Contact</a></p>
+      </footer>
+  </body>
+</html>

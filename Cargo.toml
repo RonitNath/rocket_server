@@ -1,0 +1,25 @@
+[package]
+name = "rocket_server"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+serde = { version = "1.0.188", features = ["derive"] }
+
+[dependencies.rocket_dyn_templates]
+version = "0.1.0-rc.3"
+features = ["tera"]
+
+[dependencies.rocket]
+version = "=0.5.0-rc.3"
+features = ["json"]
+
+[dependencies.rocket_db_pools]
+version = "=0.1.0-rc.3"
+features = ["sqlx_sqlite"]
+
+[dependencies.sqlx]
+version = "*"
+default-features = false
+features = ["macros", "offline", "migrate"]

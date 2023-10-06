@@ -1,0 +1,7 @@
+{% extends "base" %}
+
+{% block content %}
+<div>
+    Main page
+</div>
+{% endblock content %}

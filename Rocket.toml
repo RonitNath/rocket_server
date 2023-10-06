@@ -1,0 +1,7 @@
+
+[default]
+template_dir = "templates"
+
+[default.databases.data]
+url = "data.db"
+ 
